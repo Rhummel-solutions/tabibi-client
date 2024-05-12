@@ -1,9 +1,9 @@
 {
-	"name": "nextjs-docker-production-kit",
+	"name": "tabibi-client",
 	"version": "1.0.0",
-	"repository": "https://github.com/maxproske/nextjs-docker-production-kit.git",
-	"author": "Max Proske <max@mproske.com>",
-	"license": "MIT",
+	"repository": "https://github.com/Rhummel-solutions/tabibi-client",
+	"author": "Aymene Bourafai",
+	"license": "Proriatory",
 	"devDependencies": {
 		"@next/font": "^13.0.6",
 		"@types/node": "^18.11.13",
@@ -11,16 +11,19 @@
 		"@types/react-dom": "^18.0.9",
 		"@typescript-eslint/eslint-plugin": "^5.46.0",
 		"@typescript-eslint/parser": "^5.46.0",
+		"autoprefixer": "^10.4.19",
 		"eslint": "^8.29.0",
-		"eslint-config-next": "^13.0.6",
+		"eslint-config-next": "^14.2.3",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-prettier": "^4.2.1",
 		"eslint-plugin-react": "^7.31.11",
 		"eslint-plugin-react-hooks": "^4.6.0",
-		"next": "^13.0.6",
+		"next": "^14.2.3",
+		"postcss": "^8.4.38",
 		"prettier": "^2.8.1",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"tailwindcss": "^3.4.3",
 		"typescript": "^4.9.4"
 	}
 }

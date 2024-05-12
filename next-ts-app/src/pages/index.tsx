@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import Blob from '../components/Blob'
-import sql from '../lib/postgres'
+// import sql from '../lib/postgres'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,13 +14,13 @@ type HomeProps = {
 }
 
 export const getServerSideProps: GetServerSideProps<HomeProps> = async () => {
-  try {
-    const result = await sql`select count(*)::int from saas.users`
-    const numUsers = result[0].count
-    return { props: { numUsers } }
-  } catch (err) {
-    console.error(err)
-  }
+  // try {
+  //   const result = await sql`select count(*)::int from saas.users`
+  //   const numUsers = result[0].count
+  //   return { props: { numUsers } }
+  // } catch (err) {
+  //   console.error(err)
+  // }
 
   return { props: { numUsers: 0 } }
 }
